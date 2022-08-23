@@ -9,29 +9,31 @@
     text-decoration: none;
 }
 
-.wrapper{
-    max-width: 1770px;
-    padding: 0 15px;
-    margin: 0 auto;
+.tabs{
+    background: #F5F5F5;;
     text-align: center;
 }
 
-.pricing_options{
-    background-color: #F5F5F5;
+.wrapper{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-.section_title{
-    padding: 104px 0 54px 0;
+.tabs-title{
+    padding: 100px 0;
+    /* после объединения секций - убрать */
 }
 
-.section_title_chapter{
+.tabs-title_name{
+    font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    color: #000000;
+    padding-bottom: 57px;
 }
 
-.title_underline{
+.tabs-title_underline{
     width: 170px;
     height: 1px;
     margin: 0 auto;
@@ -39,15 +41,16 @@
     background-color: #EC7979;
 }
 
-.signature_title{
-    padding: 40px 0 60px 0;
+.tabs-title_caption{
+    margin: 40px 0 60px 0;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #86878B;
 }
 
-/* .price_content{
+/* .tabs-price-list{
     margin: 20px 0 0 0;
 } */
 
@@ -56,7 +59,7 @@
     margin: -20px 0 0 0;
 } */
 
-.price_cart{
+.tabs-price-cart{
     width: 370px;
     display: inline-block;
     margin: 20px 0 0 0;
