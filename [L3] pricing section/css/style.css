@@ -9,9 +9,10 @@
     text-decoration: none;
 }
 
-.tabs{
+.pricing{
     background: #F5F5F5;;
     text-align: center;
+    padding: 107px 0 50px 0;
 }
 
 .wrapper{
@@ -20,12 +21,11 @@
     margin: 0 auto;
 }
 
-.tabs-title{
-    padding: 100px 0;
-    /* после объединения секций - убрать */
+.pricing-title{
+    margin-bottom: 60px;
 }
 
-.tabs-title_name{
+.pricing-title_name{
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -33,16 +33,15 @@
     padding-bottom: 57px;
 }
 
-.tabs-title_underline{
+.pricing-title_underline{
     width: 170px;
     height: 1px;
-    margin: 0 auto;
+    margin: 0 auto 40px auto;
     border: none;
     background-color: #EC7979;
 }
 
-.tabs-title_caption{
-    margin: 40px 0 60px 0;
+.pricing-title_caption{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -50,23 +49,14 @@
     color: #86878B;
 }
 
-/* .tabs-price-list{
-    margin: 20px 0 0 0;
-} */
-
-/* .price__first{
-    display: inline-block;
-    margin: -20px 0 0 0;
-} */
-
-.tabs-price-cart{
+.pricing-cart{
     width: 370px;
     display: inline-block;
-    margin: 20px 0 0 0;
 }
 
-.price_cart_item{
-    padding: 14px 0;
+.pricing-cart_item{
+    padding: 15px 0 14px 0;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -76,25 +66,25 @@
     background: #FFFFFF;
 }
 
-.price__second{
-    padding: 0 30px;
+.pricing-cart__second{
+    margin: 0 25px;
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
-    /* margin: -20px 0 0 0; */
 }
 
-.item__class{
+.pricing-cart_item__class{
     font-family: 'Open Sans', sans-serif;
-    padding: 13px 0;
+    padding: 18px 0;
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
     background: #333333;
     color: #FFFFFF;
-    border-bottom: 1px solid ;
 }
 
-.cart_cost{
+.pricing-cart_item__cost{
     padding: 28px 0;
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -102,11 +92,13 @@
     color: #FFFFFF;
 }
 
-.cart_life{
+.pricing-cart_item__free{
     padding: 14px 0;
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    text-transform: none;
     background: #333333;
     color: rgba(255, 255, 255, 0.5);
 }
