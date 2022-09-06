@@ -84,7 +84,8 @@
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	padding: 208px 0 185px 0;
+	align-items: flex-start;
+	padding: 231px 0 185px 0;
 }
 
 .banner-text {
@@ -96,17 +97,28 @@
 }
 
 .banner-text_title {
+	position: relative;
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 48px;
 	line-height: 56px;
 	color: #FFFFFF;
-	padding-bottom: 98px;
+	padding-bottom: 55px;
+	margin-bottom: 42px;
+}
+
+.banner-text_title::before {
+position: absolute;
+content: "";
+background: #FFFFFF;
+width: 170px;
+height: 1px;
+bottom: 0;
 }
 
 .banner-text_caption {
-	font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -151,9 +163,14 @@
 	line-height: 33px;
 	padding: 33px 33px;
 	margin-bottom: 45px;
+	display: flex;
 }
 
-.banner-form_input {
+.banner-form_title__free__txt {
+	color: #EC7979;
+}
+
+.banner-form_input input {
 	outline: none;
 	border: none;
 	width: 370px;
@@ -166,10 +183,7 @@
 	line-height: 19px;
 }
 
-.banner-form_button {
-	position: absolute;
-	bottom: 0;
-	left: 0;
+.banner-form_button button {
 	width: 100%;
 	padding: 22px 0;
 	font-style: normal;
@@ -182,6 +196,7 @@
 	border-radius: 0 0 10px 10px;
 	cursor: pointer;
 	transition: 0.3s;
+	margin-top: 75px;
 }
 
 .banner-form_button:hover {
@@ -751,7 +766,8 @@ text-align: center;
 	width: 170px;
 	height: 1px;
 	bottom: 0;
-	left: calc(50% - 85px);
+	left: 50%;
+	transform: translate(-50%);
 }
 
 .contact-us-title_caption {
@@ -884,4 +900,9 @@ text-align: center;
 	line-height: 21px;
 	color: rgba(255, 255, 255, 0.5);
 	padding-bottom: 27px;
+}
+
+
+@media (max-width: 1200) {
+	
 }
